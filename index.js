@@ -1,7 +1,16 @@
 const express = require('express')
 const app = express()
 
-app.get('/', (req, res) => {
+app.post('/signup', (req, res) => {
+  res.send('Hello World!')
+})
+app.get('/submissions', (req, res) => {
+  res.send('Hello World!')
+})
+app.post('/login', (req, res) => {
+  res.send('Hello World!')
+})
+app.get('/questions', (req, res) => {
   res.send('Hello World!')
 })
 
